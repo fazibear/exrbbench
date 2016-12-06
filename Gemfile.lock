@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    erlectricity (1.1.1)
+    erlix (0.5.0a)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  erlectricity
+  erlix
+
+BUNDLED WITH
+   1.13.6
