@@ -74,11 +74,14 @@ defmodule Exrbbench do
 
     Benchee.run(%{
       # "local_function" => fn -> sum_two_integers(1, 2) end,
-      "process_function" => fn -> sum_two_integers_in_process(elixir_process_pid, 1, 2) end,
+      #"process_function" => fn -> sum_two_integers_in_process(elixir_process_pid, 1, 2) end,
       "export_function" => fn -> sum_two_integers_in_ruby_with_export(export_process_pid, 1, 2) end,
       "erlectricity_function" => fn -> sum_two_integers_in_ruby_with_erlectricity(erlectricity_process_pid, 1,2) end,
       # "erlix_function" => fn -> sum_two_integers_in_ruby_with_erlix(erlix_process_pid, 1,2) end,
-    })
+    }, formatters: [
+      &Benchee.Formatters.HTML.output/1,
+      &Benchee.Formatters.Console.output/1
+    ], html: [file: "bench/index.html"])
 
     {:ok, self()}
   end
