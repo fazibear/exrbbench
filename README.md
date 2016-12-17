@@ -1,6 +1,6 @@
 # Elixir, Ruby, don’t fight. Benchmark!
 
-Application for [this]() article.
+Example project for [this](https://blog.fazibear.me/elixir-ruby-dont-fight-benchmark-9c6f442de37e) article.
 
 Elixir application for benchmark communication between Elixir and Ruby using:
 
