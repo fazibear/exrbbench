@@ -2,6 +2,6 @@
   "benchee_html": {:hex, :benchee_html, "0.1.0", "ba1278e1b29f5f3e6ab6671f660e453303d378c69e607d788081757292a090fc", [:mix], [{:benchee, "~> 0.6", [hex: :benchee, optional: false]}, {:benchee_json, "~> 0.1", [hex: :benchee_json, optional: false]}]},
   "benchee_json": {:hex, :benchee_json, "0.1.0", "6951b014eec7c21b45172d1f1b82c0320117e8a59bd4de81d98fa24df026a64b", [:mix], [{:benchee, "~> 0.6", [hex: :benchee, optional: false]}, {:poison, "~> 3.0", [hex: :poison, optional: false]}]},
   "deep_merge": {:hex, :deep_merge, "0.1.1", "c27866a7524a337b6a039eeb8dd4f17d458fd40fbbcb8c54661b71a22fffe846", [:mix], []},
-  "erlport": {:git, "https://github.com/hdima/erlport.git", "246b7722d62b87b48be66d9a871509a537728962", []},
-  "export": {:hex, :export, "0.0.7", "f930e51fd09855ab5cfa3295acee86ab119f6cc386bba2a455bd6a45570d699f", [:mix], []},
-  "poison": {:hex, :poison, "3.0.0", "625ebd64d33ae2e65201c2c14d6c85c27cc8b68f2d0dd37828fde9c6920dd131", [:mix], []}}
+  "erlport": {:hex, :erlport, "0.9.8", "b7dc57eb87f215a671926bfbcd23e6e9c76f8653b0d072627b41431ef51c4d20", [:rebar3], []},
+  "export": {:hex, :export, "0.1.0", "1d1870f54996a88d067c927c7e00bca42d9e84775b4e3c75952ed351ad950551", [:mix], [{:erlport, "~> 0.9", [hex: :erlport, optional: false]}]},
+  "poison": {:hex, :poison, "3.1.0", "d9eb636610e096f86f25d9a46f35a9facac35609a7591b3be3326e99a0484665", [:mix], []}}
